@@ -252,9 +252,6 @@ p {
 .hotel-info h1 {
     font-size: 20px;
 }
-nav a {
-
-}
 .nav-wrap {
     visibility: visible;
     display: flex;
@@ -347,6 +344,4 @@ nav a {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 }
-   
-
 }
