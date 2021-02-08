@@ -1,0 +1,352 @@
+.logo {
+    width: 7em;
+    
+}
+.logo-a {
+    margin-right: 50%;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+a:hover, a:focus, a:active, a:visited, a:link {
+    text-decoration: none;
+    color: black;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-wrap {
+    display: none;
+}
+.fa-star {
+    color: blue;
+}
+
+.hotel-info {
+    margin: 10px;
+}
+.hotel-info h1 {
+    font-size: 25px;
+}
+.sub-search {
+    color: ivory;
+    font-weight: bold;
+}
+.fa-map-marker-alt {
+    border-radius: 12px 0 0 12px;
+    background-color: lightgrey;
+    padding: 13px;
+    margin-right: -4px;
+}
+.hotel-info .find-place {
+    padding: 12px;
+    border: 1px solid lightgray;
+    margin: 0;
+    font-weight: bold;
+}
+.hotel-info .sub-search {
+    border-radius: 0 12px 12px 0;
+    background-color: lightgrey;
+    padding: 13px;
+    background-color: rgb(0, 119, 255);
+    margin-left: -4px;
+}
+.fa-search {
+    visibility: hidden;
+}
+.filters {
+    display: flex;
+    margin: 15px;
+}
+.money {
+  
+    background-color: white;
+    border-radius: 25px;
+    border: #F2F2 2px solid;
+    margin: 15px;
+
+}
+.money i {
+    border-radius: 20px;
+    background-color: #DEEBFF;
+    padding: 12px;
+    margin-left: -2px;
+    color: blue;
+}
+.money span {
+    padding: 0 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.add-info {
+    display: flex;
+    margin: 15px;
+}
+.add-info i {
+    border-radius: 25px;
+    padding: 10px;
+    color: blue;
+    margin: 8px;
+    border: lightgrey 2px solid;
+}
+
+.accomodations {
+    padding: 30px;
+    border-radius: 1em;
+    background-color: lightgrey;
+    width: 90%;
+}
+.accom-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+    
+
+.card {
+    background-color: whitesmoke;
+    padding: 6px;
+    margin: 10px;
+    width: 27%;
+    border-radius: 13px;
+    font-size: 11px;
+    
+}
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 95px;
+
+}
+.card-pop img {
+    width: 37%;
+    border-radius: 5px 0px 0 5px;
+    height: 120px;
+}
+
+.card-pop {
+    background-color: whitesmoke;
+    padding: 3px;
+    border-radius: 7px;
+    font-size: 12px;
+    /* margin-right: -8px; */
+    margin: 17px;
+    width: 75%;
+}
+.text-pop {
+    margin-left: 10px;
+}
+.card-pop a {
+    display: flex;
+}
+.most-popular {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 1em;
+    margin: 40px;
+    width: 50%;
+}
+.most-pop-wrap {
+    margin:40px;
+}
+
+.act-wrap {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+}
+.card3 {
+    background-color: whitesmoke;
+    padding: 6px;
+    margin: 10px;
+    width: 60%;
+    border-radius: 13px;
+    font-size: 11px;
+    height: 50vh;
+}
+.card3 img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 40vh;
+}
+.card4 {
+background-color: whitesmoke;
+padding: 6px;
+margin: 10px;
+width: 50%;
+border-radius: 13px;
+font-size: 11px;
+height: 25%;
+}
+.card4 img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 73%;
+}
+.double {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2px;
+}
+.double2 {
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    width: 40%;
+    height: 10px;
+    border-radius: 1em;
+ }
+ .section-wrapper {
+     display: flex;
+ }
+ .About {
+     background-color: lightgray;
+     display: flex;
+     justify-content: space-between;
+}
+.About h6 {
+    font-weight: bold;
+    font-size: 18px;
+}
+.col-1 {
+    font-size: 14px;
+
+}
+p {
+    font-weight: normal;
+}
+ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.hotel-info .sub-search {
+    visibility:none
+}
+.fa-search {
+    border-radius: 0 12px 12px 0;
+    padding: 12px;
+    background-color: rgb(0, 119, 255);
+    margin-left: -5px;
+}
+.nav {
+    width: 20%
+
+}
+.hotel-info h1 {
+    font-size: 20px;
+}
+nav a {
+
+}
+.nav-wrap {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 18px;
+    text-decoration: underline blue;
+    font-size: 20px;
+    font-weight: normal;
+}
+.nav span {
+    visibility: hidden;
+}
+
+.body {
+    padding: 15px;
+    margin: 5px;
+}
+.filters {
+    display: block;
+    width: 50%;
+}
+.most-pop-wrap {
+    display: block;
+}
+.most-popular {
+    width: 80%;
+    padding: 2px;
+    margin: 5px;
+    background-color: whitesmoke;
+}
+.card-pop  {
+    width: 100%;
+    margin: 10px;
+    height: 70%;
+    background-color: white;
+}
+.accom-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.accomodations {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+.card {
+    width: 65%;
+    background-color: white;
+}
+.section-wrapper {
+    flex-direction: column-reverse;
+}
+.act-wrap {
+    display: block;
+}
+.About {
+    display: block;
+}
+.card4 {
+    height: 180px;
+    width: 60%;
+}
+.card4 img {
+    height: 65%;
+}
+.card3 {
+    height: 180px;
+    width: 60%;
+}
+.card3 img {
+    height: 65%;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+   
+
+}
