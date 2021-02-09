@@ -63,12 +63,15 @@ a:hover, a:focus, a:active, a:visited, a:link {
     margin: 15px;
 }
 .money {
-  
     background-color: white;
     border-radius: 25px;
     border: #F2F2 2px solid;
     margin: 15px;
 
+}
+.money span:hover {
+    color: cornflowerblue;
+    font-size: 40px;
 }
 .money i {
     border-radius: 20px;
@@ -76,6 +79,7 @@ a:hover, a:focus, a:active, a:visited, a:link {
     padding: 12px;
     margin-left: -2px;
     color: blue;
+    transition: 0.8s;
 }
 .money span {
     padding: 0 10px;
