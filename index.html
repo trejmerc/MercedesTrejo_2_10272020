@@ -14,10 +14,10 @@
 
             <header>
                 <nav class="nav">
-                    <a class="logo-a" href=""><img class="logo" src="Reservia header.png" alt="Reservia header"></a>
-                        <span style="color: #0065FC" >Accomodation</span>
-                        <span style="color: black">Activities </span>
-                        <a href="signup" style="color: #0065FC">Sign Up</a>
+                <img class="logo" src="Reservia header.png" alt="Reservia header"></a>
+                <a href="signup" style="color: #0065FC">Sign Up</a>
+                <a href="#activity">Activities </a>
+                        <a href="#accom" style="color: #0065FC">Accomodation</a>
                 </nav>
                 <div class="nav-wrap">
                     <p style="color: #0065FC">Accomodation</p>
@@ -57,7 +57,7 @@
             </section>
             <div class="section-wrapper">
             <section class="accomodations">
-                <h1>Accomodation in Marseille</h1>
+                <h1 id="accom">Accomodation in Marseille</h1>
                     <div class="accom-wrap">
                         <section class="card">
                             <a href="notavailable.com">
@@ -176,7 +176,6 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i> 
                                 <i class="fas fa-star" style="color: grey"></i>
-                            </span>
                             </div>
                         </a>
                     </section>
@@ -192,7 +191,6 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i> 
                                 <i class="fas fa-star" style="color: grey"></i>
-                            </span>
                             </div>
                         </a>
                     </section>
@@ -200,7 +198,7 @@
         </section>
         </div>
         <section class="Activities">
-        <h1>Activities in Marseille</h1>
+        <h1 id="activity">Activities in Marseille</h1>
         <div class="act-wrap">
                 <section class="card3">
                     <a href="notavailable.com">
@@ -244,29 +242,26 @@
             </div> 
         </div>                
         </section>
-    
-    <footer>
-                <div class="About">
-                    <div class="col-1">
-                        <h6>About</h6>
-                        <p>Site Map</p> 
-                        <p>General Terms and Conditions</p>
-                        <p>Data and Privacy</p>
-                    </div>
-                    <div class="col-1">
-                        <h6>Our Communications</h6>
-                        <p>Quality Assessment</p> 
-                        <p>You have a hotel?</p>
-                    </div>
-                    <div class="col-1">
-                        <h6>Assistance</h6>
-                        <p>Help Desk</p> 
-                        <p>Contact Us</p>
-                    </div>
+
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading col-1">
+                    <h6>About</h6>
+                    <a href="#">Site Map</a> 
+                    <a href="#">General Terms and Conditions</a>
+                    <a href="#">Data and Privacy</a>
                 </div>
-            
-    </main>                            
-         
-    </footer>
+                <div class="footer-heading col-2">
+                    <h6>Our Communications</h6>
+                    <a href="#">Quality Assessment</a> 
+                    <a href="#">You have a hotel?</a>
+                </div>
+                <div class="footer-heading col-3">
+                    <h6>Assistance</h6>
+                    <a href="#">Help Desk</a> 
+                    <a href="#">Contact Us</a>
+                </div>
+        </div>
+    </main>                           
     </body>
 </html>

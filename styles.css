@@ -2,8 +2,11 @@
     width: 7em;
     
 }
-.logo-a {
-    margin-right: 50%;
+.nav a {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    float: right;
 }
 
 html {
@@ -14,10 +17,6 @@ html {
 a:hover, a:focus, a:active, a:visited, a:link {
     text-decoration: none;
     color: black;
-}
-.nav {
-    display: flex;
-    justify-content: space-between;
 }
 .nav-wrap {
     display: none;
@@ -78,7 +77,7 @@ a:hover, a:focus, a:active, a:visited, a:link {
     background-color: #DEEBFF;
     padding: 12px;
     margin-left: -2px;
-    color: blue;
+    color:#0065FC;
     transition: 0.8s;
 }
 .money span {
@@ -108,7 +107,6 @@ a:hover, a:focus, a:active, a:visited, a:link {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    
 }
     
 
@@ -165,13 +163,13 @@ a:hover, a:focus, a:active, a:visited, a:link {
     height: 30%;
 }
 .card3 {
-    background-color: whitesmoke;
-    padding: 6px;
+    background-color: white;
     margin: 10px;
     width: 60%;
-    border-radius: 13px;
     font-size: 11px;
     height: 50vh;
+    border-radius: 20px;
+    border: whitesmoke 2px solid;
 }
 .card3 img {
     width: 100%;
@@ -179,11 +177,11 @@ a:hover, a:focus, a:active, a:visited, a:link {
     height: 40vh;
 }
 .card4 {
-background-color: whitesmoke;
-padding: 6px;
+background-color: white;
 margin: 10px;
 width: 50%;
-border-radius: 13px;
+border-radius: 20px;
+border: whitesmoke 2px solid;
 font-size: 11px;
 height: 25%;
 }
@@ -202,30 +200,33 @@ height: 25%;
     flex-direction: column;
 }
 .footer {
-    width: 40%;
+    width: 30%;
     height: 10px;
     border-radius: 1em;
  }
  .section-wrapper {
      display: flex;
  }
- .About {
+ .footer-container {
      background-color: lightgray;
-     display: flex;
-     justify-content: space-between;
+     padding-bottom: 4rem;
 }
-.About h6 {
-    font-weight: bold;
-    font-size: 18px;
+.footer {
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
 }
-.col-1 {
-    font-size: 14px;
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+}
+.footer h6 {
+    margin-bottom: 2rem;
+}
 
-}
-p {
-    font-weight: normal;
-}
- 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 .col-1 {width: 8.33%;}
