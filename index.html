@@ -6,24 +6,32 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link href="styles.css" rel="stylesheet" type="text/css">
         <script src="https://kit.fontawesome.com/9d5bed6cec.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
         <title>Reservia</title>
     </head>
     <body>
-        <main> 
-
-            <header>
-                <nav class="nav">
-                <img class="logo" src="Reservia header.png" alt="Reservia header"></a>
-                <a href="signup" style="color: #0065FC">Sign Up</a>
-                <a href="#activity">Activities </a>
-                        <a href="#accom" style="color: #0065FC">Accomodation</a>
-                </nav>
-                <div class="nav-wrap">
-                    <p style="color: #0065FC">Accomodation</p>
-                    <p style="color: black">Activities </p>
+            <nav>
+                <div class="nav-header">
+                    <img src="Reservia-header.png" class="logo" alt="Reservia-header">
+                <ol>
+                    <li class="sign-up"><a href="sign-up">Sign Up</a></li>
+                    <li class="nav-info"><a href="#activity">Activities</a><li>
+                    <li class="nav-info"><a href="#accom">Accomodation</a></li>
+                </ol>
                 </div>
-            </header>
+                <div class="nav-hidden">
+                    <ol>
+                    <li class="nav-hide"><a href="#activity">Activities</a><li>
+                    <li class="nav-hide"><a href="#accom">Accomodation</a></li>
+                    </ol>
+                </div>
+            </nav>
+    <main> 
+    
             <section class="hotel-info">
                 <h1>Find a place for your dream vacation</h1>
                 <p>Downtown or in nature</p>
@@ -32,29 +40,29 @@
                 <input class="sub-search" type="submit" value="Search">
                 <i class="fas fa-search"></i>
             </section> 
-            <section class="filters">
-                <p>Filters</p>
-                <section class="money">
+            <div class="filters">
+                    <p>Filters</p>
+                <div class="filters-container">
                     <i class="fas fa-money-bill-wave"></i> 
                     <span>Low cost</span>
-                </section>    
-                <section class="money">
+                </div>    
+                <div class="filters-container">
                     <i class="fas fa-child"></i>
                     <span>Family-friendly</span>
-                </section>     
-                <section class="money">
+                </div>     
+                <div class="filters-container">
                     <i class="fas fa-heart"></i> 
                     <span>Romantic</span>
-                </section>     
-                <section class="money">
+                </div>     
+                <div class="filters-container">
                     <i class="fas fa-dog"></i> 
                     <span>Pets-allowed</span>
-                </section>    
-            </section>
-            <section class="add-info">
+                </div>    
+            </div>
+            <div class="add-info">
                     <i class="fas fa-info"></i>
                     <p>More than 500 accomodations are available in this city</p>
-            </section>
+            </div>
             <div class="section-wrapper">
             <section class="accomodations">
                 <h1 id="accom">Accomodation in Marseille</h1>
@@ -74,7 +82,7 @@
 
                         <section class="card">
                             <a href="notavailable.com">                               
-                                <img class="hotel" src="fred-kleber (2).jpg" alt="fred kleber">
+                                <img class="hotel" src="fred-kleber.jpg" alt="fred-kleber">
                                 <h3>Hotel du port</h3>
                                 <p>Night starts at 52€</p>
                                 <div> <i class="fas fa-star"></i> 
@@ -145,10 +153,10 @@
         </section>
 
         <section class="most-popular">
-            <h2>Most Popular
-            <i class="fas fa-chart-line"></i>
-            </h2>
             <div class="most-pop-wrap">
+                <h2>Most Popular
+                <i class="fas fa-chart-line"></i>
+                </h2>
                     <section class="card-pop">
                          <a href="notavailable.com">
                              <img class="popular" src="emile-guillermo.jpg" alt="febrian-zakaria-sj">         
@@ -198,69 +206,70 @@
         </section>
         </div>
         <section class="Activities">
-        <h1 id="activity">Activities in Marseille</h1>
-        <div class="act-wrap">
-                <section class="card3">
-                    <a href="notavailable.com">
-                        <img class="popular" src="reno-lait.jpg" alt="reisetopia"> 
-                        <h4>Old Fort</h4>
-                    </a>
-                </section>
-            <div class="double">       
-                <section class="card4">
-                    <a href="notavailable.com">
-                        <img class="popular" src="paul-herman.jpg" alt="reisetopia"> 
-                        <h4>Pomegues Fort</h4>
-                    </a>
-                </section>
-                <section class="card4">
-                    <a href="notavailable.com">
-                        <img class="popular" src="kevin-hik.jpg" alt="reisetopia"> 
-                        <h4>Frisuot Island</h4>
-                    </a>
-                </section>
-            </div>       
-                <section class="card3">
-                    <a href="notavailable.com">
-                        <img class="popular" src="kilyan.jpg" alt="reisetopia"> 
-                        <h4>Calanques National Park</h4>
-                    </a>
-                </section>  
-            <div class="double2">
-                <section class="card4">
-                    <a href="notavailable.com">
-                        <img class="popular" src="florian-weh.jpg" alt="reisetopia"> 
-                        <h4>Notre-Dame-de-La-Garde</h4>
-                    </a>
-                </section>      
-                <section class="card4">
-                    <a href="notavailable.com">
-                        <img class="popular" src="lena-paulin.jpg" alt="reisetopia"> 
-                        <h4>Longchamp Park</h4>
-                    </a>
-                </section>
-            </div> 
-        </div>                
+            <h1 id="activity">Activities in Marseille</h1>
+                <div class="act-wrap">
+                        <section class="card3">
+                            <a href="notavailable.com">
+                                <img class="popular" src="reno-lait.jpg" alt="reisetopia"> 
+                                <h4>Old Fort</h4>
+                            </a>
+                        </section>
+                    <div class="double">       
+                        <section class="card4">
+                            <a href="notavailable.com">
+                                <img class="popular" src="paul-herman.jpg" alt="reisetopia"> 
+                                <h4>Pomegues Fort</h4>
+                            </a>
+                        </section>
+                        <section class="card4">
+                            <a href="notavailable.com">
+                                <img class="popular" src="kevin-hik.jpg" alt="reisetopia"> 
+                                <h4>Frisuot Island</h4>
+                            </a>
+                        </section>
+                    </div>       
+                        <section class="card3">
+                            <a href="notavailable.com">
+                                <img class="popular" src="kilyan.jpg" alt="reisetopia"> 
+                                <h4>Calanques National Park</h4>
+                            </a>
+                        </section>  
+                    <div class="double">
+                        <section class="card4">
+                            <a href="notavailable.com">
+                                <img class="popular" src="florian-weh.jpg" alt="reisetopia"> 
+                                <h4>Notre-Dame-de-La-Garde</h4>
+                            </a>
+                        </section>      
+                        <section class="card4">
+                            <a href="notavailable.com">
+                                <img class="popular" src="lena-paulin.jpg" alt="reisetopia"> 
+                                <h4>Longchamp Park</h4>
+                            </a>
+                        </section>
+                    </div> 
+                </div>                
         </section>
 
         <div class="footer-container">
             <div class="footer">
-                <div class="footer-heading col-1">
+                <div class="footer-heading">
                     <h6>About</h6>
                     <a href="#">Site Map</a> 
                     <a href="#">General Terms and Conditions</a>
                     <a href="#">Data and Privacy</a>
                 </div>
-                <div class="footer-heading col-2">
+                <div class="footer-heading">
                     <h6>Our Communications</h6>
                     <a href="#">Quality Assessment</a> 
                     <a href="#">You have a hotel?</a>
                 </div>
-                <div class="footer-heading col-3">
+                <div class="footer-heading">
                     <h6>Assistance</h6>
                     <a href="#">Help Desk</a> 
                     <a href="#">Contact Us</a>
                 </div>
+            </div>
         </div>
     </main>                           
     </body>
