@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale+=1.0"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link href="styles.css" rel="stylesheet" type="text/css">
-        <script src="https://kit.fontawesome.com/9d5bed6cec.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
-        <title>Reservia</title>
-    </head>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale+=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <script src="https://kit.fontawesome.com/9d5bed6cec.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
+    <title>Reservia</title>
+</head>
     <body>
-            <nav>
-                <div class="nav-header">
-                    <img src="Reservia-header.png" class="logo" alt="Reservia-header">
+    <header>
+        <nav>
+            <div class="nav-header">
+                <img src="Reservia-header.png" class="logo" alt="Reservia-header">
+            <ol>
+                <li class="sign-up"><a href="sign-up">Sign Up</a></li>
+                <li class="nav-info"><a href="#activity">Activities</a><li>
+                <li class="nav-info"><a href="#accom">Accomodation</a></li>
+            </ol>
+            </div>
+            <div class="nav-hidden">
                 <ol>
-                    <li class="sign-up"><a href="sign-up">Sign Up</a></li>
-                    <li class="nav-info"><a href="#activity">Activities</a><li>
-                    <li class="nav-info"><a href="#accom">Accomodation</a></li>
-                </ol>
-                </div>
-                <div class="nav-hidden">
-                    <ol>
-                    <li class="nav-hide"><a href="#activity">Activities</a><li>
                     <li class="nav-hide"><a href="#accom">Accomodation</a></li>
-                    </ol>
-                </div>
-            </nav>
+                <li class="nav-hide"><a href="#activity">Activities</a><li>
+                </ol>
+            </div>
+        </nav>
+    </header>
     <main> 
-    
             <section class="hotel-info">
                 <h1>Find a place for your dream vacation</h1>
                 <p>Downtown or in nature</p>
@@ -69,7 +69,7 @@
                     <div class="accom-wrap">
                         <section class="card">
                             <a href="notavailable.com">
-                                <img class="hotel" src="marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="marcus loke">
+                                <img src="marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="marcus loke">
                                 <h2>Auberge la Cannebière</h2>
                                 <p>Night starts at 25€</p>
                                 <div>   <i class="fas fa-star"></i> 
@@ -82,7 +82,7 @@
 
                         <section class="card">
                             <a href="notavailable.com">                               
-                                <img class="hotel" src="fred-kleber.jpg" alt="fred-kleber">
+                                <img src="fred-kleber.jpg" alt="fred-kleber">
                                 <h3>Hotel du port</h3>
                                 <p>Night starts at 52€</p>
                                 <div> <i class="fas fa-star"></i> 
@@ -96,7 +96,7 @@
 
                         <section class="card">
                             <a href="notavailable.com">
-                                <img class="hotel" src="reisetopia-unsplash.jpg" alt="reisetopia"> 
+                                <img src="reisetopia-unsplash.jpg" alt="reisetopia"> 
                                 <h4>Les mouettes Hotel</h4>
                                 <p>Night starts at 76€</p>
                                 <div> <i class="fas fa-star"></i> 
@@ -110,7 +110,7 @@
 
                         <section class="card">
                             <a href="notavailable.com">
-                                <img class="hotel" src="annie-spratt.jpg" alt="annie-spratt"> 
+                                <img src="annie-spratt.jpg" alt="annie-spratt"> 
                                 <h4>Hotel de la Mar</h4>
                                 <p>Night starts at 46€</p>
                                 <div> <i class="fas fa-star"></i> 
@@ -124,7 +124,7 @@
 
                         <section class="card">
                             <a href="notavailable.com">
-                                <img class="hotel" src="nicate-lee.jpg" alt="nicate-lee"> 
+                                <img src="nicate-lee.jpg" alt="nicate-lee"> 
                                 <h4>Auberge Le Panier</h4>
                                 <p>Night starts at 23€</p>
                                 <div> <i class="fas fa-star"></i> 
@@ -138,7 +138,7 @@
 
                         <section class="card">
                             <a href="notavailable.com">
-                                <img class="hotel" src="febrian-zakaria.jpg" alt="febrian-zakaria"> 
+                                <img src="febrian-zakaria.jpg" alt="febrian-zakaria"> 
                                 <h4>Hotel chez Amina</h4>
                                 <p>Night starts at 96€</p>
                                 <div><i class="fas fa-star"></i> 
@@ -250,8 +250,9 @@
                     </div> 
                 </div>                
         </section>
-
-        <div class="footer-container">
+   
+    </main>      
+    <footer>
             <div class="footer">
                 <div class="footer-heading">
                     <h6>About</h6>
@@ -270,7 +271,6 @@
                     <a href="#">Contact Us</a>
                 </div>
             </div>
-        </div>
-    </main>                           
+    </footer>                       
     </body>
 </html>
